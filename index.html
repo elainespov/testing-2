@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elaine's POV — Travel, Tips & CSC Tutorials</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="/" class="logo">Elaine's POV</a>
+        <p class="tagline">Stories, hacks, CSC tutorials & Supreme Court digests</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#hacks">Tips & Hacks</a></li>
+          <li><a href="#csc">CSC Tutorials</a></li>
+          <li><a href="#cases">Supreme Court Cases</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Elaine's POV</h1>
+          <p class="lead">A measured voice blending travel storytelling with practical tips, CSC form tutorials, and Philippine Supreme Court case digests.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#featured">Featured Posts</a>
+            <a class="btn btn-outline" href="#about">Meet Elaine</a>
+          </div>
+        </div>
+        <div class="hero-accent" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="featured" class="featured container">
+      <h2 class="section-title">Featured</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=700&fit=crop" alt="Island paradise" loading="lazy">
+          <div class="card-body">
+            <h3><a href="posts/sample-travel.html">Island Hopping in Palawan: A Minimalist's Guide</a></h3>
+            <p class="muted">Travel · 8 min read</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&h=700&fit=crop" alt="Travel planning" loading="lazy">
+          <div class="card-body">
+            <h3><a href="#">5 Travel Hacks That Actually Save Money</a></h3>
+            <p class="muted">Tips & Hacks · 5 min read</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1507842217343-583f20270319?w=1200&h=700&fit=crop" alt="Documents and forms" loading="lazy">
+          <div class="card-body">
+            <h3><a href="posts/sample-tutorial.html">Filling CSC Form 212: Step-by-Step</a></h3>
+            <p class="muted">CSC Tutorials · 10 min read</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="blocks" class="container blocks">
+      <div class="block">
+        <h3 id="travel">✈️ Travel</h3>
+        <p>Travel storytelling with practical itineraries, packing lists, budgeting tips and cultural notes.</p>
+      </div>
+
+      <div class="block">
+        <h3 id="hacks">💡 Tips & Hacks</h3>
+        <p>Concise, tested lifehacks for travel, productivity, and everyday living.</p>
+      </div>
+
+      <div class="block">
+        <h3 id="csc">📋 CSC Tutorials</h3>
+        <p>Clear, step-by-step walkthroughs for common CSC forms and procedures with downloadable templates.</p>
+      </div>
+
+      <div class="block">
+        <h3 id="cases">⚖️ Supreme Court Cases</h3>
+        <p>Summaries and digests of notable Philippine Supreme Court decisions with key takeaways and citations.</p>
+      </div>
+    </section>
+
+    <section id="latest" class="container latest">
+      <h2 class="section-title">Latest Posts</h2>
+      <ul class="post-list">
+        <li><a href="#">How to plan a 3-day Manila weekend</a> <span class="muted">· Tips</span></li>
+        <li><a href="#">CSC Form 6: A quick reference</a> <span class="muted">· CSC Tutorials</span></li>
+        <li><a href="posts/sample-case.html">Case Digest: Cruz v. People (example)</a> <span class="muted">· Cases</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="contact">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:elaine@example.com">elaine@example.com</a></p>
+        <p>Follow: 
+          <a href="#">Twitter</a> · <a href="#">LinkedIn</a> · <a href="#">Instagram</a>
+        </p>
+      </div>
+      <div class="credits">
+        <p>Elaine's POV — thoughtful writing on travel, practical tips, CSC tutorials, and Supreme Court digests.</p>
+        <p class="muted">© <span id="year"></span> Elaine</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
